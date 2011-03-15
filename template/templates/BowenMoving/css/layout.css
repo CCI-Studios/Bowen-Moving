@@ -1,0 +1,25 @@
+#wrapper {
+	width: 1021px;
+	background-color: red;
+	margin: 0 auto;
+}
+
+#top {
+	background: url(../images/stories/default/bgtop.jpg) repeat-x;
+	
+}
+
+#content {
+	background: url(../images/stories/default/bgcontent.jpg) repeat-x;
+	
+}
+
+#bottom {
+	background: url(../images/stories/default/bgbottom.jpg) repeat-x;
+	
+}
+
+#footer {
+	background: url(../images/stories/default/bgfooter.jpg) repeat-x;
+	
+}
