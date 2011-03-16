@@ -1,25 +1,64 @@
-#wrapper {
+#top {
+	background: url(../images/bgtop.jpg) repeat-x;
+}
+
+#top > div {
 	width: 1021px;
-	background-color: red;
 	margin: 0 auto;
 }
 
-#top {
-	background: url(../images/stories/default/bgtop.jpg) repeat-x;
-	
+#logo1 {
+	margin: 41px 0 0;
+	bottom-padding: 31px;
+	float: left;
+}
+
+#logo2 {
+	margin: 41px 0 0;
+	bottom-padding: 53px;
+	float: right;
+}
+
+#mainmenu {
+	background: url(../images/mainmenubg.jpg) repeat-x;
+	width: 0 auto;
 }
 
 #content {
-	background: url(../images/stories/default/bgcontent.jpg) repeat-x;
-	
+	background: url(../images/bgcontent.jpg) repeat-x;
+	width: 0 auto;
 }
 
 #bottom {
-	background: url(../images/stories/default/bgbottom.jpg) repeat-x;
-	
+	background: url(../images/bgbottom.jpg) repeat-x;
+	width: 0 auto;
 }
 
 #footer {
-	background: url(../images/stories/default/bgfooter.jpg) repeat-x;
-	
+	background: url(../images/bgfooter.jpg) repeat-x;
+	width: 0 auto;
+	padding: 18px 0;
 }
+
+#footer > div {
+	width: 1021px;
+	margin: 0 auto 0;
+}
+
+#footer > div > div {
+	float: right;
+	padding: 0 12px;	
+}
+
+/* Extra Items to be removed before going live */
+
+#top { height: 197px;}
+#mainmenu { height: 58px;}
+#content { height: 471px;}
+#bottom { height: 349px;}
+#footer { height: 166px;}
+
+
+
+
+

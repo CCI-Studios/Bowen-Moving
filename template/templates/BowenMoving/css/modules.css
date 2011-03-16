@@ -1,13 +1,14 @@
 .moduletable_menu {
-
+	padding: 20px;
+	float: right;
 }
 
 .moduletable_menu ul {
-	
 }
 
 .moduletable_menu a {
-	
+	color: white;
+	text-decoration: none;
 }
 
 .moduletable_menu a:hover {
@@ -17,5 +18,7 @@
 .moduletable_menu li {
 	
 }
+
+
 
 
