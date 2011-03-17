@@ -8,25 +8,31 @@
 }
 
 #logo1 {
-	margin: 41px 0 0;
-	bottom-padding: 31px;
+	margin: 0 0 31px;
 	float: left;
 }
 
 #logo2 {
-	margin: 41px 0 0;
-	bottom-padding: 53px;
+	margin: 0 0 53px;
 	float: right;
 }
 
 #mainmenu {
 	background: url(../images/mainmenubg.jpg) repeat-x;
-	width: 0 auto;
 }
 
 #content {
 	background: url(../images/bgcontent.jpg) repeat-x;
 	width: 0 auto;
+	padding-top: 41px;
+	padding-bottom: 43px;
+}
+
+#content > div {
+	width: 1021px;
+	margin: 0 auto;
+	border: 1px solid black;
+	background: white;
 }
 
 #bottom {

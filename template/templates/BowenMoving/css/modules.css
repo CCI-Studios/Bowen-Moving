@@ -1,24 +1,72 @@
 .moduletable_menu {
-	padding: 20px;
-	float: right;
-}
-
-.moduletable_menu ul {
+	width: 1021px;
+	margin: 0 auto;
 }
 
 .moduletable_menu a {
-	color: white;
+	color: #000777;
 	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
 }
 
 .moduletable_menu a:hover {
-	
+	color: #8d0000;
+}
+
+.moduletable_menu ul {
+	float: right;
+	padding: 0;
 }
 
 .moduletable_menu li {
+	padding: 20px 0 0 6px;
+	list-style: none;
+	background: none;
+	display: inline;
+	position: relative;
+}
+
+.moduletable_menu li:hover ul {
+	display: block;
+}
+
+.moduletable_menu ul ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: green;
+	text-align: center;
+	display: none;
+}
+
+.moduletable_menu ul ul li {
+	display: block;
+}
+
+#main .moduletable_menu {
 	
 }
 
+#main .moduletable_menu a {
+	color: white;
+	font-size: 14px;
+}
+
+#main .moduletable_menu a:hover {
+	color: #000777;
+}
+
+#main .moduletable_menu ul {
+	margin: 0;
+}
+
+#main .moduletable_menu li {
+	float: left;
+	line-height: 50px;
+	padding: 0 25px;
+}
 
 
 
