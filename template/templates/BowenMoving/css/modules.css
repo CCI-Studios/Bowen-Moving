@@ -59,12 +59,13 @@
 }
 
 #main .moduletable_menu ul {
-	margin: 0;
+	margin: 0;	
+	
 }
 
 #main .moduletable_menu li {
 	float: left;
-	line-height: 50px;
+
 	padding: 0 25px;
 }
 

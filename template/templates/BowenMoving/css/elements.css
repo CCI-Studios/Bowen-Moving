@@ -1,6 +1,8 @@
 html, body { height: 100%;}
 
-a { color: #8d0000; font-size: 10px; text-decoration: none;}
+a { color: #000777; font-size: 12px; text-decoration: none;}
+
+a:hover { color: #8d0000;}
 
 body {
 	font-family: "FranklinGothic Medium", Arial, Helvetica, sans-serif;
@@ -11,8 +13,22 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-color: #8d0000; font-size: 12px;}
 
-h1 { font-size: 24px;}
+h1 { 
+	width: 1021px;
+	text-indent: 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-bottom: 4px #000777 solid;
+	bottom-padding: 9px;
+	top-padding: 36px;
+}
 
-h2 { font-size: 16px; text-indent: 20px; border-bottom: 5px #000777;}
+h2 { font-size: 13px; text-indent: 20px; border-bottom: 1px #000777 solid;}
 
-h3 { font-size: 13px; text-indent: 20px; border-bottom: 1px #000777;}
+h3 { 
+	font-size: 15px;
+	text-transform: uppercase;
+	text-indent: 20px;
+	border-bottom: 2px #000777 solid;
+	padding-right: 18px;
+}

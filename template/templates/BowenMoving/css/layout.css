@@ -13,8 +13,12 @@
 }
 
 #logo2 {
-	margin: 0 0 53px;
+	margin: 32px 0 53px;
 	float: right;
+}
+
+#main {
+
 }
 
 #mainmenu {
@@ -28,16 +32,15 @@
 	padding-bottom: 43px;
 }
 
-#content > div {
-	width: 1021px;
-	margin: 0 auto;
-	border: 1px solid black;
-	background: white;
-}
 
 #bottom {
 	background: url(../images/bgbottom.jpg) repeat-x;
 	width: 0 auto;
+}
+
+#bottom > div {
+	width: 335px;
+	padding: 37px 0 0 0;
 }
 
 #footer {
@@ -52,6 +55,7 @@
 }
 
 #footer > div > div {
+	position: relative;
 	float: right;
 	padding: 0 12px;	
 }

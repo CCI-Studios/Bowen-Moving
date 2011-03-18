@@ -28,23 +28,23 @@
 			<jdoc:include type="modules" name="mainmenu" style="xhtml" />
 		</div>
 	</div>
-				
-	<div id="content">
-		<div>
-			<jdoc:include type="component" />
-		</div>
+	
+	<div id="content">	
+		<jdoc:include type="component" />
 	</div>
 
 	<div id="bottom">
-		<jdoc:include type="modules" name="bottom" style="xhtml" />
+		<div>
+			<jdoc:include type="modules" name="bottom" style="xhtml" />
+		</div>
 	</div>
 
 	<div id="footer">
 		<div>
-			Copyright &copy; Bowen Moving 2011
-			Site by<a href="http://www.ccistudios.com" target="_blank"> CCI Studios</a>
-		<div>
 			<jdoc:include type="modules" name="footer" style="xhtml"/>
+		</div>
+		<div>Copyright &copy; Bowen Moving 2011 
+			 <span>Site by<a href="http://www.ccistudios.com" target="_blank"> CCI Studios</a></span>
 		</div>
 	</div>
 </body>
