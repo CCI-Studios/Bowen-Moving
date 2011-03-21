@@ -1,26 +1,20 @@
-.moduletable_menu {
-	width: 1021px;
-	margin: 0 auto;
-}
+.moduletable_menu {}
 
 .moduletable_menu a {
 	color: #000777;
 	text-decoration: none;
 	text-align: center;
-	font-size: 12px;
 }
 
 .moduletable_menu a:hover {
 	color: #8d0000;
 }
 
-.moduletable_menu ul {
-	float: right;
-	padding: 0;
-}
+.moduletable_menu ul {}
 
 .moduletable_menu li {
 	padding: 20px 0 0 6px;
+	font-size: 14px;
 	list-style: none;
 	background: none;
 	display: inline;
@@ -37,37 +31,52 @@
 	left: 0;
 	width: 100%;
 	background-color: green;
-	text-align: center;
+	text-align: left;
 	display: none;
+	text-transform: capitalize;
 }
 
-.moduletable_menu ul ul li {
-	display: block;
-}
+.moduletable_menu ul ul li { display: block;}
 
-#main .moduletable_menu {
-	
-}
+#top .moduletable_menu ul { text-align: right;}
 
-#main .moduletable_menu a {
-	color: white;
-	font-size: 14px;
-}
+#mainmenu .moduletable_menu { text-transform: uppercase;}
 
-#main .moduletable_menu a:hover {
-	color: #000777;
-}
+#mainmenu .moduletable_menu a { color: white;}
 
-#main .moduletable_menu ul {
-	margin: 0;	
-	
-}
+#mainmenu .moduletable_menu a:hover { color: #000777;}
 
-#main .moduletable_menu li {
+#mainmenu .moduletable_menu ul {margin: 0;}
+
+#mainmenu .moduletable_menu li {
 	float: left;
-
-	padding: 0 25px;
+	padding: 0 23px;
+	line-height: 51px;
 }
 
+#mainmenu .moduletable_menu ul ul li {
+	font-size: 12px;
+	float: none;
+	line-height: 2em;
+}
 
+#bottom .moduletable {
+	float: left;
+	width: 311px;
+	margin-left: 14px;
+	padding: 0 10px;
+}
+
+#bottom .moduletable:first-child  {
+	margin-left: 0;
+}
+
+.moduletable h3 {
+	font-size: 15px;
+	text-transform: uppercase;
+	text-indent: 20px;
+	border-bottom: 4px #000777 solid;
+	padding-bottom: 8px;
+	margin: 0 -10px 25px;
+}
 

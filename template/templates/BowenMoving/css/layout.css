@@ -1,14 +1,13 @@
-#top {
-	background: url(../images/bgtop.jpg) repeat-x;
+#top > div, #mainmenu > div, #content > div, #bottom > div,
+#footer > div {
+	margin: 0 auto;
+	width: 1021px;
 }
 
-#top > div {
-	width: 1021px;
-	margin: 0 auto;
-}
+#top { background: url(../images/bgtop.jpg) repeat-x; }
 
 #logo1 {
-	margin: 0 0 31px;
+	margin: 0  0 31px;
 	float: left;
 }
 
@@ -17,42 +16,16 @@
 	float: right;
 }
 
-#main {
+#mainmenu { background: url(../images/mainmenubg.jpg) repeat-x; }
 
-}
+#content { background: url(../images/bgcontent.jpg) repeat-x; }
+#content > div { padding-bottom: 32px; }
 
-#mainmenu {
-	background: url(../images/mainmenubg.jpg) repeat-x;
-}
+#bottom { background: url(../images/bgbottom.jpg) repeat-x; }
+#bottom > div {  padding: 34px 0 44px; }
 
-#content {
-	background: url(../images/bgcontent.jpg) repeat-x;
-	width: 0 auto;
-	padding-top: 41px;
-	padding-bottom: 43px;
-}
-
-
-#bottom {
-	background: url(../images/bgbottom.jpg) repeat-x;
-	width: 0 auto;
-}
-
-#bottom > div {
-	width: 335px;
-	padding: 37px 0 0 0;
-}
-
-#footer {
-	background: url(../images/bgfooter.jpg) repeat-x;
-	width: 0 auto;
-	padding: 18px 0;
-}
-
-#footer > div {
-	width: 1021px;
-	margin: 0 auto 0;
-}
+#footer { background: url(../images/bgfooter.jpg) repeat-x; }
+#footer > div { }
 
 #footer > div > div {
 	position: relative;
@@ -60,13 +33,10 @@
 	padding: 0 12px;	
 }
 
-/* Extra Items to be removed before going live */
+#footer a { font-size: 10px;}
 
-#top { height: 197px;}
-#mainmenu { height: 58px;}
-#content { height: 471px;}
-#bottom { height: 349px;}
-#footer { height: 166px;}
+/* Extra Items to be removed before going live */
+#content { min-height: 471px;}
 
 
 
