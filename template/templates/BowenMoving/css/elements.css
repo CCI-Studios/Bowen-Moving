@@ -5,12 +5,13 @@
 
 html, body { height: 100%;}
 
-
 a { color: #000777; text-decoration: none;}
 
 a:hover { color: #8d0000;}
 
-p { padding: 1em 0; }
+p { padding: 1em 0;}
+
+
 
 body {
 	font-family: fgm, helvetica, Arial, sans-serif; 
@@ -20,19 +21,21 @@ body {
 	line-height: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 { color: #8d0000; font-size: 13px;}
+h1, h2, h3, h4, h5, h6 { 
+	color: #8d0000;
+	font-size: 13px;
+	margin: 0 -20px 0;
+}
 
 h1 { 
-	width: 1021px;
 	text-indent: 20px;
 	font-size: 16px;
 	text-transform: uppercase;
 	border-bottom: 4px #000777 solid;
 	padding-bottom: 9px;
 	padding-top: 36px;
-	
 }
 
-h2 { text-indent: 20px; border-bottom: 1px #000777 solid;}
+h2 { text-indent: 20px; border-bottom: 2px #000777 solid;}
 
-h3 {}
+h3 { }

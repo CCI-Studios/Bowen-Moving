@@ -1,42 +1,29 @@
 #top > div, #mainmenu > div, #content > div, #bottom > div,
-#footer > div {
-	margin: 0 auto;
-	width: 1021px;
-}
+#footer > div { margin: 0 auto; width: 1020px;}
 
-#top { background: url(../images/bgtop.jpg) repeat-x; }
+#top { background: url(../images/bgtop.jpg) repeat-x;}
 
-#logo1 {
-	margin: 0  0 31px;
-	float: left;
-}
+#logo1 { margin: 0 0 21px; float: left;}
 
-#logo2 {
-	margin: 32px 0 53px;
-	float: right;
-}
+#logo2 { margin: 32px 0 40px; float: right;}
 
-#mainmenu { background: url(../images/mainmenubg.jpg) repeat-x; }
+#mainmenu { background: url(../images/mainmenubg.jpg) repeat-x;}
 
-#content { background: url(../images/bgcontent.jpg) repeat-x; }
-#content > div { padding-bottom: 32px; }
+#content { background: url(../images/bgcontent.jpg) repeat-x;}
+#content > div { padding: 0 20px 32px; width: 980px;}
 
-#bottom { background: url(../images/bgbottom.jpg) repeat-x; }
-#bottom > div {  padding: 34px 0 44px; }
+#bottom { background: url(../images/bgbottom.jpg) repeat-x;}
+#bottom > div { padding: 34px 0 44px; }
 
-#footer { background: url(../images/bgfooter.jpg) repeat-x; }
-#footer > div { }
+#footer { background: url(../images/bgfooter.jpg) repeat-x;}
+#footer > div {font-size: 10px; padding: 0 0 122px;}
 
-#footer > div > div {
-	position: relative;
-	float: right;
-	padding: 0 12px;	
-}
+#footer > div > div { position: relative; padding: 12px 12px 0 0;}
 
-#footer a { font-size: 10px;}
 
 /* Extra Items to be removed before going live */
 #content { min-height: 471px;}
+
 
 
 

@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 }
 ol, ul {
-	margin: 1em 0 1em 2em;
+	margin: 0;
 }
 blockquote, q {
 	quotes: none;

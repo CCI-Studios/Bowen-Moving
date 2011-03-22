@@ -38,12 +38,11 @@
 	</div></div>
 
 	<div id="footer"><div>
-		<div>
-			<jdoc:include type="modules" name="footer" style="xhtml"/>
-		</div>
-		<div>Copyright &copy; Bowen Moving 2011<br /> 
-			 <span>Site by<a href="http://www.ccistudios.com" target="_blank"> CCI Studios</a></span>
-		</div>
+			<div>Copyright &copy; Bowen Moving 2011<br /> 
+			 	 Site by<a href="http://www.ccistudios.com" target="_blank">
+			     CCI Studios</a>
+				<jdoc:include type="modules" name="footer" style="xhtml"/>
+			</div>
 	</div></div>
 </body>
 
