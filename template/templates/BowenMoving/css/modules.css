@@ -6,15 +6,13 @@
 	text-align: center;
 }
 
-.moduletable_menu a:hover { color: #8d0000;}
+.moduletable_menu a:hover { color: #ad0000;}
 
 .moduletable_menu ul { }
 
 .moduletable_menu li {
 	padding: 20px 0 0 6px;
-	font-size: 14px;
-	list-style: none;
-	background: none;
+	font-size: 10px;
 	display: inline;
 	position: relative;
 }
@@ -25,8 +23,8 @@
 	position: absolute;
 	top: 100%;
 	left: 0;
-	width: 100%;
-	background-color: green;
+	width: 120%;
+	background: url(../images/dropdownmenubg.jpg) repeat-x;
 	text-align: left;
 	display: none;
 	text-transform: capitalize;
@@ -40,27 +38,29 @@
 
 #mainmenu .moduletable_menu a { color: white;}
 
-#mainmenu .moduletable_menu a:hover { 
-	color: white; 
-	background-color: #ac0000;
+#mainmenu .moduletable_menu a:hover {
+	background: url(../images/mainmenuhover.jpg) repeat-x;
 	padding: 20px 0 14px;
 }
 
-#mainmenu .moduletable_menu ul { margin: 0; margin-top: -8px;}
+#mainmenu .moduletable_menu ul { margin-top: -8px;}
 
 #mainmenu .moduletable_menu li {
+	font-size: 14px;
 	float: left;
-	padding: 0 12px 0;
+	padding: 0 20px 0;
 	line-height: 58px;
 }
 
 #mainmenu .moduletable_menu ul ul li {
 	font-size: 12px;
-	float: none;
-	line-height: 24px;
+	line-height: 30px;
 }
 
-#mainmenu .moduletable_menu ul ul li:first-child { line-height: 30px;}
+#mainmenu .moduletable_menu ul ul li a:hover { 
+	background: url(../images/dropdownmenuhover.png) repeat-x;
+	padding: 10px 0;
+}
 
 #bottom .moduletable {
 	float: left;
