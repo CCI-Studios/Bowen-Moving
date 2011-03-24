@@ -29,9 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-}
 ol, ul {
-	margin: 0;
+	margin: 1em 0 1em 2em;
 }
 blockquote, q {
 	quotes: none;

@@ -5,6 +5,8 @@
 <head>
 	<jdoc:include type="head" />
 	<link rel="stylesheet" href="/templates/BowenMoving/css/template.css" />
+	<script src="/templates/BowenMoving/scripts/column_set.js" type="text/javascript" charset="utf-8"></script>
+	
 </head>
 	
 <body>
@@ -33,7 +35,9 @@
 	</div></div>
 
 	<div id="bottom"><div>
-		<jdoc:include type="modules" name="bottom" style="xhtml" />	
+		<div class="colContainer">
+			<jdoc:include type="modules" name="bottom" style="xhtml" />	
+		</div>
 		<div class="clear"></div>
 	</div></div>
 

@@ -1,0 +1,17 @@
+div.readmore {
+	background: url(../images/readmore.png) 0 0 no-repeat;
+	bottom: 0;
+	color: white;
+	left: 0;
+	padding-left: 10px;
+	position: absolute;
+	
+}
+
+div.readmore div {
+	background: url(../images/readmore.png) right -28px no-repeat;
+	padding: 4px 10px 4px 0;
+}
+
+div.readmore:hover { background-position: 0 -56px; }
+div.readmore:hover div { background-position: right -84px; }
