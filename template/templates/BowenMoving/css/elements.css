@@ -31,7 +31,13 @@ h1 {
 	text-transform: uppercase;
 	border-bottom: 4px #000777 solid;
 	padding-bottom: 9px;
-	padding-top: 36px;
+}
+body.home h1 {
+	text-indent: 0;
+	font-size: 24px;
+	text-transform: none;
+	border-bottom: none;
+	padding: 0;
 }
 
 h2 { text-indent: 20px; border-bottom: 2px #000777 solid;}

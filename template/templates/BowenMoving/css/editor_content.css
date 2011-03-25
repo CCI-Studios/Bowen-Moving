@@ -15,3 +15,5 @@ div.readmore div {
 
 div.readmore:hover { background-position: 0 -56px; }
 div.readmore:hover div { background-position: right -84px; }
+
+div.readmore a, div.readmore a:hover { color: white; }

@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-
+<?php
+$menu = JSite::getMenu();
+if ($menu)
+    $menu = $menu->getActive();
+if ($menu)
+    $menu = $menu->alias;
+$testing = "true";
+?>
 <html>
-	
 <head>
 	<jdoc:include type="head" />
 	<link rel="stylesheet" href="/templates/BowenMoving/css/template.css" />
 	<script src="/templates/BowenMoving/scripts/column_set.js" type="text/javascript" charset="utf-8"></script>
-	
 </head>
 	
-<body>
+<body class="<?php echo $menu ?>">
 	<div id="top"><div>
 		<jdoc:include type="modules" name="top" style="xhtml"/>
 		<div class="clear"></div>	
@@ -29,10 +34,10 @@
 		<div class="clear"></div>
 	</div></div>
 	
-	<div id="content"><div>
+	<div id="content"><div><div>
 		<jdoc:include type="component" />
 		<div class="clear"></div>
-	</div></div>
+	</div></div></div>
 
 	<div id="bottom"><div>
 		<div class="colContainer">
@@ -42,7 +47,7 @@
 	</div></div>
 
 	<div id="footer"><div>
-			<div>Copyright &copy; Bowen Moving 2011<br /> 
+			<div>Copyright &copy; Bowen Moving <?php echo date('Y') ?><br /> 
 			 	 Site by<a href="http://www.ccistudios.com" target="_blank">
 			     CCI Studios</a>
 				<jdoc:include type="modules" name="footer" style="xhtml"/>
