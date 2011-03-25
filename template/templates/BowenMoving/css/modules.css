@@ -75,6 +75,12 @@
 #mainmenu .moduletable_menu li:hover > span {
 	background: url(../images/menu_hover_top.png) 0 -116px no-repeat;
 }
+
+#mainmenu .moduletable_menu li:first-child:hover > a span,
+#mainmenu .moduletable_menu li:first-child:hover > span span {
+	background: url(../images/menudropdownindicator.png) 12px 44px no-repeat;
+}
+
 #mainmenu .moduletable_menu li:hover + li {
 	background: url(../images/menu_hover_top.png) -3px -58px no-repeat;
 }
