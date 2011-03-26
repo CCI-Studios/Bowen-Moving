@@ -7,7 +7,12 @@
 
 #logo2 { margin: 32px 0 40px; float: right;}
 
-#mainmenu { background: url(../images/mainmenubg.jpg) bottom repeat-x; padding-bottom: 8px; }
+#mainmenu { 
+	background: url(../images/mainmenubg.jpg) bottom repeat-x;
+	padding-bottom: 8px;
+	position: relative;
+	z-index: 5;
+}
 
 #content { background: url(../images/bgcontent.jpg) repeat-x; padding-top: 36px; }
 #content > div { padding: 0 20px 32px; width: 980px;}
