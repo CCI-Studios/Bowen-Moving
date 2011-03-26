@@ -53,6 +53,10 @@ $testing = "true";
 				<jdoc:include type="modules" name="footer" style="xhtml"/>
 			</div>
 	</div></div>
+	
+	<div class="hidden">
+		<jdoc:include type="modules" name="hidden" style="raw" />
+	</div>
 </body>
 
 </html>
