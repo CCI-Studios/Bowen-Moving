@@ -1,9 +1,13 @@
 @font-face {
-	font-family: fgm;
-	src: url(../fonts/framd.ttf) format("truetype"); /*FIX for IE*/
+    font-family: 'fgm';
+    src: url('../fonts/framd.eot');
+    src: local('nope'),
+         url('../fonts/framd.ttf') format('truetype')
 }
 
-html, body { height: 100%;}
+.form_element select { padding-right: 0; } /* fix again for DAMN IE */
+
+html, body { height: 100%; }
 
 a { color: #000777; text-decoration: none;}
 
@@ -12,7 +16,7 @@ a:hover { color: #8d0000;}
 p { margin: 1em 0; }
 
 body {
-	font-family: fgm, helvetica, Arial, sans-serif; 
+	font-family: fgm, times, helvetica, Arial, sans-serif; 
 	color: #000777;
 	font-size: 13px;
 	margin: auto 0;
