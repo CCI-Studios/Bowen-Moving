@@ -12,6 +12,7 @@ $testing = "true";
 	<jdoc:include type="head" />
 	<link rel="stylesheet" href="/templates/BowenMoving/css/template.css" />
 	<script src="/templates/BowenMoving/scripts/column_set.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="shortcut icon" href="/templates/BowenMoving/images/favicon.ico" />
 </head>
 	
 <body class="<?php echo $menu ?>">
