@@ -16,7 +16,7 @@ $testing = "true";
 </head>
 	
 <body class="<?php echo $menu ?>">
-	<div id="top"><div>
+	<div id="top"></div>
 		<jdoc:include type="modules" name="top" style="xhtml"/>
 		<div class="clear"></div>	
 		
