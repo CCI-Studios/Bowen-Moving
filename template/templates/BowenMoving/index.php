@@ -29,7 +29,7 @@ $testing = "true";
 	  })();
 
 	</script>
-	<div id="top"></div>
+	<div id="top"><div>
 		<jdoc:include type="modules" name="top" style="xhtml"/>
 		<div class="clear"></div>	
 		
